@@ -71,39 +71,39 @@ const Index = () => (
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Jahia UX"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="Case Study - RadioPublic"
+           // link=""
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            Showcasing my process on how I approach a new product or feature.
           </ProjectCard>
           <ProjectCard
             title="Pump Finder App"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
+           // link=""
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            App development from ideation, testing to Appstore.
           </ProjectCard>
           <ProjectCard
             title="Headless Java-CMS Guide"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+           // link=""
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            Creating an hands-on guide to get started with Java-based CMS
           </ProjectCard>
           <ProjectCard
             title="Multifuntional DataLogger"
-            link="https://www.behance.net/gallery/38068151/Eagle"
+           // link=""
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            Using instrument generated data to identify and plan out a new product.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
+          <Avatar src={avatar} alt="Franklin Christuraj" />
           <AboutSub>
           An AI Driven Product Manager focused on helping companies grow by leveraging data and creativity to enhance the customer-centred product experience.
           </AboutSub>
@@ -117,13 +117,13 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:christuraj.anto@gmail.com">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">LinkedIn</a>,{' '}<a href="https://dribbble.com/LekoArts">Github</a>  &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            <a href="https://www.linkedin.com/in/franklinchristuraj/">LinkedIn</a>,{' '}<a href="https://github.com/franklinchristuraj">Github</a>  &{' '}
+            <a href="https://twitter.com/frankChristuraj">Twitter</a>
           </ContactText>
         </Inner>
         <Footer>
           &copy; 2019 by Franklin Christuraj.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>.
+          <a href="https://github.com/franklinchristuraj/frankofolio">Github Repository</a>.
         </Footer>
       </Contact>
     </Parallax>
