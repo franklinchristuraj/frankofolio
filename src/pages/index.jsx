@@ -63,36 +63,36 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hello, <br /> I'm Franklin.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>I help companies design and build AI products that solves real problems.</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
+            title="Jahia UX"
             link="https://www.behance.net/gallery/58937147/Freiheit"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
             This project is my entry to Adobe's #ChallengeYourPerspective contest.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
+            title="Pump Finder App"
             link="https://www.behance.net/gallery/52915793/Harry-Potter"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
             I entered the DOCMA 2017 award with this Harry Potter inspired image.
           </ProjectCard>
           <ProjectCard
-            title="Tomb Raider"
+            title="Headless Java-CMS Guide"
             link="https://www.behance.net/gallery/43907099/Tomb-Raider"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
             Recreation of a Tomb Raider Wallpaper (Fan Art)
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
+            title="Multifuntional DataLogger"
             link="https://www.behance.net/gallery/38068151/Eagle"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
@@ -105,31 +105,25 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+          An AI Driven Product Manager focused on helping companies grow by leveraging data and creativity to enhance the customer-centred product experience.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+        I believe my passion for the data, digital and product management strengths and cross-functional collaboration capabilities would serve you well. I would love an opportunity to learn more about your specific goals and needs, and share some thoughts on how I could support your efforts to continue producing game-changing digital products.
         </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
+            Say <a href="mailto:christuraj.anto@gmail.com">Hi</a> or find me on other platforms:{' '}
+            <a href="https://dribbble.com/LekoArts">LinkedIn</a>,{' '}<a href="https://dribbble.com/LekoArts">Github</a>  &{' '}
             <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
+          &copy; 2019 by Franklin Christuraj.{' '}
+          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>.
         </Footer>
       </Contact>
     </Parallax>
