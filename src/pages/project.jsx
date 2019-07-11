@@ -9,7 +9,7 @@ import ProjectCard from '../components/ProjectCard'
 
 // Elements
 import Inner from '../elements/Inner'
-import { Title, BigTitle, Subtitle } from '../elements/Titles'
+import { Title, BigTitle, Subtitle, Button } from '../elements/Titles'
 
 // Views
 import Hero from '../views/Hero'
@@ -63,9 +63,10 @@ const Index = () => (
     <Parallax pages={2}>
       <Hero offset={0}>
         <BigTitle>
-        Jahia UX
+        RadioPublic - Case Study
         </BigTitle>
-        <Subtitle>How we redesigned the website of a content management platform</Subtitle>
+        <Subtitle>Showcasing my process on how I approach a new product or feature.</Subtitle>
+        <Button>Read the case study</Button>
       </Hero>
       <Contact offset={1}>
         <Inner>

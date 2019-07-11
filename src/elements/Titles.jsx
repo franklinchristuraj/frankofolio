@@ -28,3 +28,16 @@ export const Subtitle = styled.p`
   ${tw`text-2xl lg:text-4xl font-sans text-white mt-8 xxl:w-3/4`};
   text-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
 `
+export const Button = styled.button`
+/* Adapt the colors based on primary prop */
+  background: ${props => props.primary ? "mediumspringgreen" : "transparent"};
+  color: ${props => props.primary ? "transperent" : "mediumspringgreen"};
+
+  font-size: 1.5em;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border: 2px solid mediumspringgreen;
+  border-radius: 3px;
+`;
+
+
