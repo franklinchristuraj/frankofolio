@@ -66,7 +66,7 @@ const Index = () => (
         RadioPublic - Case Study
         </BigTitle>
         <Subtitle>Showcasing my process on how I approach a new product or feature.</Subtitle>
-        <Button>Read the case study</Button>
+        <Button as="a" href="/">Read the case study</Button>
       </Hero>
       <Contact offset={1}>
         <Inner>
