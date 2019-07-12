@@ -36,11 +36,15 @@ const ProjectsWrapper = styled.div`
 `
 
 const AboutHero = styled.div`
-  ${tw`flex flex-col lg:flex-row items-center mt-8`};
+  ${tw`flex -mx-6 flex-col lg:flex-row items-center mt-8`};
 `
 
 const Avatar = styled.img`
   ${tw`rounded-full w-32 xl:w-48 shadow-lg h-auto`};
+`
+
+const SideImage = styled.img`
+  ${tw`w-1/2 px-6 float-right shadow-lg h-auto`};
 `
 
 const AboutSub = styled.span`
@@ -48,7 +52,7 @@ const AboutSub = styled.span`
 `
 
 const AboutDesc = styled.p`
-  ${tw`text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify`};
+  ${tw`w-1/2 px-6 text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify`};
 `
 
 const ContactText = styled.p`
@@ -58,6 +62,8 @@ const ContactText = styled.p`
 const Footer = styled.footer`
   ${tw`text-center text-grey absolute pin-b p-6 font-sans text-md lg:text-lg`};
 `
+
+
 
 const Index = () => (
   <>
@@ -72,22 +78,25 @@ const Index = () => (
       </Hero>
       <Textbox offset={1}>
         <Title>Case</Title>
-        <AboutDesc>
-        I believe my passion for the data, digital and product management strengths and cross-functional collaboration capabilities would serve you well. I would love an opportunity to learn more about your specific goals and needs, and share some thoughts on how I could support your efforts to continue producing game-changing digital products.
-        </AboutDesc>
+        <AboutHero>
+          <AboutDesc>
+          I believe my passion for the data, digital and product management strengths and cross-functional collaboration capabilities would serve you well. I would love an opportunity to learn more about your specific goals and needs, and share some thoughts on how I could support your efforts to continue producing game-changing digital products.
+          </AboutDesc>
+          <SideImage src="https://images.unsplash.com/photo-1459262838948-3e2de6c1ec80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"></SideImage>
+        </AboutHero>
       </Textbox>
-      <Contact offset={2}>
+      <Contact offset={4}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:christuraj.anto@gmail.com">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">LinkedIn</a>,{' '}<a href="https://dribbble.com/LekoArts">Github</a>  &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            <a href="https://www.linkedin.com/in/franklinchristuraj/">LinkedIn</a>,{' '}<a href="https://github.com/franklinchristuraj">Github</a>  &{' '}
+            <a href="https://twitter.com/frankChristuraj">Twitter</a>
           </ContactText>
         </Inner>
         <Footer>
           &copy; 2019 by Franklin Christuraj.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>.
+          <a href="https://github.com/franklinchristuraj/frankofolio">Github Repository</a>.
         </Footer>
       </Contact>
     </Parallax>
