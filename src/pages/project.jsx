@@ -85,7 +85,7 @@ const Index = () => (
           <SideImage src="https://images.unsplash.com/photo-1459262838948-3e2de6c1ec80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"></SideImage>
         </AboutHero>
       </Textbox>
-      <Contact offset={4}>
+      <Contact offset={2}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
