@@ -16,6 +16,7 @@ import Hero from '../views/Hero'
 import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
+import Textbox from'../views/Textbox'
 
 import avatar from '../images/avatar.jpg'
 
@@ -61,7 +62,7 @@ const Footer = styled.footer`
 const Index = () => (
   <>
     <Layout />
-    <Parallax pages={2}>
+    <Parallax pages={3}>
       <Hero offset={0}>
         <BigTitle>
         RadioPublic - Case Study
@@ -69,7 +70,13 @@ const Index = () => (
         <Subtitle>Showcasing my process on how I approach a new product or feature.</Subtitle>
         <Button as="a" href="/">Read the case study</Button>
       </Hero>
-      <Contact offset={1}>
+      <Textbox offset={1}>
+        <Title>Case</Title>
+        <AboutDesc>
+        I believe my passion for the data, digital and product management strengths and cross-functional collaboration capabilities would serve you well. I would love an opportunity to learn more about your specific goals and needs, and share some thoughts on how I could support your efforts to continue producing game-changing digital products.
+        </AboutDesc>
+      </Textbox>
+      <Contact offset={2}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
