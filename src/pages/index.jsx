@@ -19,6 +19,10 @@ import Contact from '../views/Contact'
 
 import avatar from '../images/avatar.jpg'
 
+// assets
+
+import pdf from '../assets/case-study-RP.pdf'
+
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
   display: grid;
@@ -72,14 +76,14 @@ const Index = () => (
         <ProjectsWrapper>
           <ProjectCard
             title="Case Study - RadioPublic"
-           // link=""
+            link={pdf}
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
             Showcasing my process on how I approach a new product or feature.
           </ProjectCard>
           <ProjectCard
             title="Pump Finder App"
-           // link=""
+            // link=""
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
             App development from ideation, testing to Appstore.
