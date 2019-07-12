@@ -19,6 +19,7 @@ import Contact from '../views/Contact'
 
 import avatar from '../images/avatar.jpg'
 
+
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
   display: grid;
