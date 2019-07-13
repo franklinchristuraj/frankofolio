@@ -9,12 +9,15 @@ import ProjectCard from '../components/ProjectCard'
 
 // Elements
 import Inner from '../elements/Inner'
-import { Title, BigTitle, Subtitle, Button } from '../elements/Titles'
+import { Title, Title1, BigTitle, Subtitle, Button } from '../elements/Titles'
 
 // Views
 import Hero from '../views/Hero'
 import Contact from '../views/Contact'
 import Textbox from'../views/Textbox'
+
+// image
+import cpfimpage from '../images/iPhone-unit-type-FR-white-e1497719855128.png'
 
 
 const ProjectsWrapper = styled.div`
@@ -35,12 +38,8 @@ const AboutHero = styled.div`
   ${tw`flex -mx-6 flex-col lg:flex-row items-center mt-8`};
 `
 
-const Avatar = styled.img`
-  ${tw`rounded-full w-32 xl:w-48 shadow-lg h-auto`};
-`
-
 const SideImage = styled.img`
-  ${tw`w-1/2 px-6 float-right shadow-lg h-auto`};
+  ${tw`w-1/2 px-6 float-right shadow-lg h-auto w-52`};
 `
 
 const AboutSub = styled.span`
@@ -64,24 +63,30 @@ const Footer = styled.footer`
 const Index = () => (
   <>
     <Layout />
-    <Parallax pages={3}>
-      <Hero offset={0}>
+    <Parallax pages={2}>
+     {/* <Hero offset={0}>
         <BigTitle>
-        RadioPublic - Case Study
+        Condensate Pump Finder App
         </BigTitle>
-        <Subtitle>Showcasing my process on how I approach a new product or feature.</Subtitle>
-        <Button as="a" href="/">Read the case study</Button>
-      </Hero>
-      <Textbox offset={1}>
-        <Title>Case</Title>
+        <Subtitle>This App is aimed towards HVACR installers, contractors and technicians, and includes condensate solutions for all AC types, boilers and refrigerated displays.</Subtitle>
+        <SideImage src="src/images/iPhone-unit-type-FR-white-e1497719855128.png" alt="Condensate pump finder app">
+        </SideImage>
+          <Button as="a" target="_blank" href="https://sauermanngroup.com/en/landingspage/condensate-pump-finder">App landing page</Button>
+      </Hero> */}
+
+
+      <Textbox offset={0}>
+       
         <AboutHero>
+        <Title1>Condensate Pump Finder App</Title1>
           <AboutDesc>
-          I believe my passion for the data, digital and product management strengths and cross-functional collaboration capabilities would serve you well. I would love an opportunity to learn more about your specific goals and needs, and share some thoughts on how I could support your efforts to continue producing game-changing digital products.
+          This App is aimed towards HVACR installers, contractors and technicians, and includes condensate solutions for all AC types, boilers and refrigerated displays.
           </AboutDesc>
-          <SideImage src="https://images.unsplash.com/photo-1459262838948-3e2de6c1ec80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"></SideImage>
+          <SideImage src={cpfimpage}></SideImage>
         </AboutHero>
+        
       </Textbox>
-      <Contact offset={2}>
+      <Contact offset={1}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>

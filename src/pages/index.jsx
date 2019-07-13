@@ -83,7 +83,7 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="Pump Finder App"
-            // link=""
+            link="cpfinderapp"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
             App development from ideation, testing to Appstore.
