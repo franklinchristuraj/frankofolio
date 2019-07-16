@@ -85,7 +85,7 @@ const Index = () => (
           <SideImage src={cpfimpage}></SideImage>
         </AboutHero>
 
-        * TODO: Fix the responsive text for the above ASAP
+        * TODO: Fix the responsive text for the above ASAP - now
         
       </Textbox>
       <Contact offset={1}>
