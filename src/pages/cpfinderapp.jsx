@@ -64,25 +64,21 @@ const Index = () => (
   <>
     <Layout />
     <Parallax pages={2}>
-     {/* <Hero offset={0}>
-        <BigTitle>
-        Condensate Pump Finder App
-        </BigTitle>
-        <Subtitle>This App is aimed towards HVACR installers, contractors and technicians, and includes condensate solutions for all AC types, boilers and refrigerated displays.</Subtitle>
-        <SideImage src="src/images/iPhone-unit-type-FR-white-e1497719855128.png" alt="Condensate pump finder app">
-        </SideImage>
-          <Button as="a" target="_blank" href="https://sauermanngroup.com/en/landingspage/condensate-pump-finder">App landing page</Button>
-      </Hero> */}
-
 
       <Textbox offset={0}>
        
         <AboutHero>
-        <Title1>Condensate Pump Finder App</Title1>
+        
           <AboutDesc>
+          <Title1>Condensate Pump Finder App</Title1> <br></br>
           This App is aimed towards HVACR installers, contractors and technicians, and includes condensate solutions for all AC types, boilers and refrigerated displays.
+          <br></br>
+          <br></br>
+          <Button as="a" href="/">Appstore</Button>
           </AboutDesc>
+          
           <SideImage src={cpfimpage}></SideImage>
+          
         </AboutHero>
 
         * TODO: Fix the responsive text for the above ASAP
