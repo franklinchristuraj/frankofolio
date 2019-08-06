@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import tw from 'tailwind.macro'
 import { Parallax } from 'react-spring/renderprops-addons.cjs'
 
-// Components q
+// Components
 import Layout from '../components/Layout'
 import ProjectCard from '../components/ProjectCard'
 
